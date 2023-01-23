@@ -7,14 +7,13 @@
 }
 
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     background-color: #ECECEC;
     position: relative;
+}
 
+html {
+    scroll-behavior: smooth;
 }
 
 .header {
@@ -32,6 +31,7 @@ body {
     width: 100%;
     box-shadow: 10px 10px 30px rgba(103, 103, 103, 0.479);
 }
+
 
 .brand {
     color: #000;
@@ -102,6 +102,11 @@ body {
 }
 
 
+#lottie-player {
+    width: 300px;
+    height: 300px;
+}
+
 /*MAIN CONTENT*/
 
 .home {
@@ -149,6 +154,7 @@ body {
 }
 
 .gif-div img {
+    min-width: 210px;
     width: 100%;
     height: auto;
     object-fit: contain;
@@ -159,7 +165,7 @@ body {
     text-align: center;
     margin: 40px 0;
     font-family: 'Raleway', sans-serif;
-    font-size: 2rem;
+    font-size: rem;
 }
 
 
@@ -283,7 +289,6 @@ body {
     color: #fff;
 }
 
-
 .contact {
     display: flex;
     justify-content: space-around;
@@ -297,7 +302,11 @@ body {
 
 .contact-text p {
     font-family: 'Poppins',sans-serif;
+
 }
+
+
+
 
 
 
@@ -388,6 +397,11 @@ body {
         transition: .3s;
     }
 
+    #lottie-player {
+        width: 300px;
+        height: 300px;
+    }
+
     .home {
         display: flex;
         justify-content: space-around;
@@ -397,10 +411,6 @@ body {
 
     .home-text {
         width: 100%;
-    }
-
-    .contact {
-        flex-direction: column;
     }
 
 }
