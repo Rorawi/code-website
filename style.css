@@ -302,9 +302,24 @@ html {
 
 .contact-text p {
     font-family: 'Poppins',sans-serif;
-
 }
 
+.contact-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 35px 0;
+}
+
+.contact-details .socials a {
+    color: rgb(15, 118, 222);
+    margin: 0 10px 0 0;
+}
+
+.contact-details .socials a:hover {
+    color: #dfcb48;
+    transition: .3s;
+}
 
 
 
@@ -413,4 +428,8 @@ html {
         width: 100%;
     }
 
+
+    .contact {
+        flex-direction: column;
+    }
 }
