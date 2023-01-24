@@ -90,7 +90,7 @@ html {
     position: absolute;
     bottom: 19px;
     width: 0%;
-    transition: 2s ease;
+    transition: .9s;
 }
 
 .navigation-items a:hover::before {
@@ -322,7 +322,22 @@ html {
 }
 
 
+.footer {
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 60px;
+}
 
+.footer-brand-section p{
+    width: 50%;
+}
+
+.footer-link-section {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
