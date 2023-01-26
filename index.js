@@ -12,6 +12,12 @@ window.addEventListener('scroll', () => {
     }
 })
 
+navigation.addEventListener('click',()=> {
+    menuBtn.classList.remove("active")
+
+    navigation.classList.add("remove")
+})
+
 
 menuBtn.addEventListener("click", () => {
     navigationItems.classList.toggle("active")

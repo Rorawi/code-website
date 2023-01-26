@@ -332,14 +332,24 @@ html {
 
 .footer-brand-section p{
     width: 50%;
+    color: #fff;
+    font-family: 'Poppins',sans-serif;
 }
 
 .footer-link-section {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
+.footer-link-section a {
+    text-decoration: none;
+    font-family: 'Raleway',sans-serif;
+    color: #fff;
+}
 
+.links {
+}
 
 
 
@@ -366,6 +376,14 @@ html {
         align-items: center;
         background: rgba(1, 1, 1, 0.719);
         z-index: -1;
+    }
+
+    .navigation.remove {
+        display: none;
+    }
+
+    .navigation.remove .navigation-items {
+        display: none;
     }
 
     .navigation-items {
