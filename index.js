@@ -12,32 +12,17 @@ window.addEventListener('scroll', () => {
     }
 })
 
+// navigation.addEventListener('click',()=> {
+//     menuBtn.classList.toggle("active")
+
+//     navigation.classList.toggle("remove")
+// })
 
 
 menuBtn.addEventListener("click", () => {
     navigationItems.classList.toggle("active")
     navigation.classList.toggle("active")
     menuBtn.classList.toggle("active")
-
-    // navigation.addEventListener('click',()=> {
-    //     menuBtn.classList.toggle("active")
-    
-    //     navigation.classList.toggle("remove")
-    // })
-    
-
-    if(navigation) {
-        navigation.addEventListener("click",()=> {
-            menuBtn.classList.remove("active")
-    
-            navigation.classList.remove("remove")
-        })
-    }
-    else {
-        menuBtn.classList.add("active")
-    
-        navigation.classList.add("remove")
-    }
 
     const navLink = document.querySelectorAll(".nav-item")
     console.log(navLink);
@@ -50,5 +35,11 @@ menuBtn.addEventListener("click", () => {
             menuBtn.classList.remove("active")
         })
     })
+})
+
+navigation.addEventListener("click", () => {
+    navigationItems.classList.toggle("active")
+    navigation.classList.toggle("active")
+    menuBtn.classList.toggle("active")
 })
 
